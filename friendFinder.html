@@ -9,7 +9,7 @@
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
     <meta name="author" content="Marwa El-Manawy" />
     <link rel="icon" href="favicon.ico">
-    <title>Bamazon App</title>
+    <title>Audio Journal</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <!-- Font icons -->
@@ -60,14 +60,15 @@
                     <!-- Main menu -->
                     <ul class="header-main-menu">
                         <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                        <li class="active"><a href="bamazon.html"><i class="fas fa-business-time"></i>
-                                Bamazon App</a></li>
+                        <li class="active"><a href="friendFinder.html"><i class="fas fa-business-time"></i>
+                                Friend Finder</a></li>
                         <li><a href="burger.html"><i class="fas fa-business-time"></i>
                                 Burger App</a></li>
+                        <li><a href="bamazon.html"><i class="fas fa-business-time"></i>
+                                Bamazon App</a></li>
                         <li><a href="journal.html"><i class="fas fa-business-time"></i>
                                 Audio Journal</a></li>
-                        <li><a href="friendFinder.html"><i class="fas fa-business-time"></i>
-                                Friend Finder</a></li>
+
                     </ul>
                     <!-- /Main menu -->
 
@@ -105,7 +106,7 @@
                                 <ul>
                                     <li><a href="favicon.ico"><i class="pe-7s-home"></i> Home</a></li>
                                     <li><a href="#">Portfolio</a></li>
-                                    <li>Bamazon App</li>
+                                    <li>Friend Finder</li>
                                 </ul>
                             </nav>
                         </div>
@@ -116,12 +117,12 @@
                 <!-- Content -->
                 <div class="container">
                     <header class="portfolio-head">
-                        <img src="img/bamazon/dark-paths.png" alt="">
+                        <img src="img/journal/1.png" alt="">
                         <div class="portfolio-head-content">
-                            <p class="meta">Backend + API</p>
-                            <h1>Bamazon App</h1>
+                            <p class="meta">API + espress.js</p>
+                            <h1>Friend Finder</h1>
                             <div class="portfolio-desc hidden-xs">
-                                <p><b>Published:</b> Jan 22, 2019</p>
+                                <p><b>Published:</b> Feb 2, 2019</p>
                                 <p><b>Demo: </b> https://stormy-dusk-76543.herokuapp.com/</p>
                                 <div class="portfolio-attr">
                                     <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
@@ -137,103 +138,76 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="block-centered">
-                                    <img src="img/bamazon/1.gif" class="img-responsive" alt="">
+                                    <img src="img/friendFinder/1.png" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-block pt-50">
-                                    <h4>The app consist of two programs.</h4>
-                                    <ul>
-                                        <li>bamazonCustomer.js</li>
-                                        <li>bamazonMeneger.js</li>
-                                    </ul>
-
-                                    <h4>bamazonCustomer.js</h4>
-                                    <p>bamazonCustomer.js is a program which helps a user (customer) buy goods.</p>
-                                    <h4>How it works
-                                    </h4>
-                                    <ul>
-                                        <li>The app shows a list of the available products.
-                                        </li>
-                                        <li>And offers the customer to buy listed goods.
-                                        </li>
-                                        <li>User can pick up the product by ID. And then they may choose how many units
-                                            they want to buy.
-                                        </li>
-                                        <li>In the end, the app shows user's order.
-                                        </li>
-                                    </ul>
+                                    <p>FriendFinder is an app which helps users to find friends.
+                                    </p>
+                                    <h4>How it works/<h4>
+                                            <p>1. It takes in results from users' surveys</p>
+                                            <p>2. Then compares their answers with those from other users.
+                                            </p>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="text-block pt-50">
-                                    <h4>bamazonMeneger.js
-                                    </h4>
-                                    <h5>The program lists a set of menu options:
-                                    </h5>
-                                    <p>1. View Products for Sale
+                                    <p> 3. The app will then display the name and picture of the user with the best
+                                        overall match.
                                     </p>
-                                    <p>If a user selects View Products for Sale, the app should list every available
-                                        item: the item IDs, names, prices, and quantities.
-
+                                    <p>The answers are saved at friends.js file.
                                     </p>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="block-centered">
-                                    <img class="img-responsive" src="img/bamazon/2-view.gif" alt="">
+                                    <img class="img-responsive" src="img/friendFinder/2.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="block-centered">
-                                    <img src="img/bamazon/3-lowInventory.gif" class="img-responsive" alt="">
+                                    <img src="img/friendFinder/3.png" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="text-block pt-50">
-                                    <p>2. View Low Inventory
-                                    </p>
-                                    <p>If a user selects View Low Inventory, then it should list all items with an
-                                        inventory count lower than five.
-
-                                    </p>
+                                    <h4>How to run</h4>
+                                    <p>Go to the app/public/ folder. There you can fing a home.html and a survey.html
+                                        files. If you wanna start from survey at once, you may start from survey.html
+                                        file without running home.html file. Otherwise run home.html file.</p>
+                                    <h4>Techilogies used</h4>
+                                    <ol>
+                                        <li>AJAX</li>
+                                        <li>express.js
+                                        </li>
+                                    </ol>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="text-block pt-50">
-                                    <p>3. Add to Inventory
-                                    </p>
-                                    <p>If a user selects Add to Inventory, your app should display a prompt that will
-                                        let the user "add more" of any item currently in the store.
-                                    </p>
-                                    <p>5. Add New Product
-                                    </p>
-                                    <p>If a user selects Add New Product, it should allow the user to add a completely
-                                        new product to the store.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="block-centered">
-                                    <img class="img-responsive" src="img/bamazon/5-addNew.gif" alt="">
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                     <div class="related-projects pb-50 pt-50">
                         <h4>Related Projects</h4>
                         <div class="clearfix portfolio-grid pt-30">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item">
                                 <div class="portfolio-img">
-                                    <img src="img/burger.png" class="img-responsive" alt="">
+                                    <img src="img/cart.jpg" class="img-responsive" alt="">
                                 </div>
+                                <div class="portfolio-data">
+                                    <h4><a href="bamazon.html">Bamazon App</a></h4>
+                                    <p class="meta">Backend + API</p>
+                                    <div class="portfolio-attr">
+                                        <a href="bamazon.html"><i class="lnr lnr-link"></i></a>
+                                        <a href="img/cart.jpg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item">
+                                <div class="portfolio-img"><img src="img/burger.png" class="img-responsive" alt=""></div>
                                 <div class="portfolio-data">
                                     <h4><a href="burger.html">Burger App</a></h4>
                                     <p class="meta">Frontend + Backend + MySQL</p>
@@ -241,17 +215,6 @@
                                         <a href="burger.html"><i class="lnr lnr-link"></i></a>
                                         <a href="img/burger.png" data-rel="lightcase:gal" title="Image Caption"><i
                                                 class="lnr lnr-move"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 portfolio-item">
-                                <div class="portfolio-img"><img src="img/audio.jpg" class="img-responsive" alt=""></div>
-                                <div class="portfolio-data">
-                                    <h4><a href="journal.html">Audio Journal</a></h4>
-                                    <p class="meta">Full Stack</p>
-                                    <div class="portfolio-attr">
-                                        <a href="journal.html"><i class="lnr lnr-link"></i></a>
-                                        <a href="img/audio.jpg" data-rel="lightcase:gal" title="Image Caption"><i class="lnr lnr-move"></i></a>
                                     </div>
                                 </div>
                             </div>
