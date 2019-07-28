@@ -2002,6 +2002,10 @@ span.typed {
     font-size: 13px;
 }
 
+.portfolio-data .hide {
+    display: none;
+}
+
 .portfolio-attr a {
     float: left;
 }
@@ -2050,20 +2054,33 @@ span.typed {
     font-size: 26px;
 }
 
+.portfolio-data h4 a:hover  .portfolio-grid .portfolio-item .portfolio-data h4 a{
+    color: black;
+    font-size: 26px;
+}
+
 .portfolio-grid .portfolio-item:hover .portfolio-data {
     padding: 40px;
     max-height: calc(100% - 40px);
     max-width: calc(100% - 40px);
-    background-color: rgba(17, 214, 240, 0.65);
+    background-color: rgba(17, 214, 240, 0.75);
 }
 
 .portfolio-grid .portfolio-item:hover .portfolio-data .meta {
     color: #fff;
-    font-size: 16px;
+    font-size: 13.5px;
+}
+
+.portfolio-grid .portfolio-item:hover .portfolio-data .bold-hover {
+    color: #000080;
+}
+
+.portfolio-grid .portfolio-item:hover .portfolio-data .hide {
+    display: block;
 }
 
 .portfolio-grid .portfolio-item:hover .portfolio-data h4 a {
-    color: #ffffff ;
+    color: #ffffff;
     font-size: 20px;
 }
 
