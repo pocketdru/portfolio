@@ -1979,8 +1979,8 @@ span.typed {
     flex-direction: column;
     height: 100%;
     max-height: 110px;
-    max-width: 50%;
-    padding: 30px;
+    max-width: 80%;
+    padding: 15px;
     position: absolute;
     right: 20px;
     overflow: hidden;
@@ -2055,12 +2055,12 @@ span.typed {
 }
 
 .portfolio-data h4 a:hover  .portfolio-grid .portfolio-item .portfolio-data h4 a{
-    color: black;
+    color: black;   
     font-size: 26px;
 }
 
 .portfolio-grid .portfolio-item:hover .portfolio-data {
-    padding: 40px;
+    padding: 20px;
     max-height: calc(100% - 40px);
     max-width: calc(100% - 40px);
     background-color: rgba(17, 214, 240, 0.75);
